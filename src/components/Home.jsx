@@ -1,5 +1,5 @@
 import React from 'react'
-import Home from '../assets/CardsSection/Home.jpg'
+import HomeImage from '../assets/CardsSection/Home.jpg'
       
 const Home = () => {
   return (
@@ -10,7 +10,7 @@ const Home = () => {
         <div className='relative w-full h-[70vh] md:h-[85vh]'>
 
           <img 
-            src={Home} 
+            src={HomeImage} 
             alt="" 
             className='w-full h-full object-cover'
           />
